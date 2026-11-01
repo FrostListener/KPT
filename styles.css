@@ -4,7 +4,8 @@ body {
 
 h1 {
     text-align: center;
-    color: red;
+    color: yellow;
     border: 2px solid yellowgreen;
+    background-color: red;
 }
 
