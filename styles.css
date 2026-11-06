@@ -30,3 +30,39 @@ body {
     text-decoration: none;
     color: #F9FAF8;
 }
+
+.container-one {
+    display: flex;
+    padding: 20px 10% 50px 10%;
+    background-color: black;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.one-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: #F9FAF8;
+    padding-bottom: 80px;
+}
+
+.one-info {
+    font-size: 48px;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.one-intro {
+    color: #E5E7EB;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 8px 0 24px 0;
+    max-width: 300px;
+}
+
+.one-right img {
+    max-width: 600px;
+}
