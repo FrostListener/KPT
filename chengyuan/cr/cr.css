@@ -10,5 +10,14 @@ li {
 .head {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
 }
 
+.cr-name {
+    align-self: center;
+}
+
+.cr-image img {
+    width: 300px;
+}

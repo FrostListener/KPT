@@ -1,11 +1,32 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
 }
 
-h1 {
-    text-align: center;
-    color: yellow;
-    border: 2px solid yellowgreen;
-    background-color: red;
+.header {
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    background-color: black;
+    color: azure;
 }
 
+.logo {
+    font-size: 36px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+.links a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
