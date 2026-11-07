@@ -35,7 +35,11 @@ body {
     display: flex;
     padding: 20px 10%;
     justify-content: space-between;
-    background: url(./images/home-page.jpg) center / cover no-repeat fixed;
+    background: url(./images/home-page.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     min-height: 700px;
     box-sizing: border-box;
 }
