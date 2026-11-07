@@ -33,19 +33,17 @@ body {
 
 .container-one {
     display: flex;
-    padding: 20px 10% 50px 10%;
-    background-color: black;
+    padding: 20px 10% 500px 10%;
     justify-content: space-between;
-    gap: 30px;
-    align-items: center;
+    background: url(./images/home-page.jpg) center / cover no-repeat;
 }
 
 .one-left {
     display: flex;
     flex-direction: column;
     flex: 1;
-    color: #F9FAF8;
-    padding-bottom: 80px;
+    color: black;
+    padding-top: 50px;
 }
 
 .one-info {
@@ -55,7 +53,6 @@ body {
 }
 
 .one-intro {
-    color: #E5E7EB;
     line-height: 1.5;
     font-size: 16px;
     font-weight: 100;
