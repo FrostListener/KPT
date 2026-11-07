@@ -91,3 +91,41 @@ body {
 .two-right img {
     max-width: 600px;
 }
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #263746;
+    min-height: 700px;
+    box-sizing: border-box;
+}
+
+.three-title {
+    color: #F2EEE6;
+    font-size: 36px;
+}
+
+.three-header img{
+    width: 700px;
+    margin-top: 16px;
+}
+
+.three-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three-intro-title {
+    color: #F2EEE6;
+    font-size: 24px;
+}
+
+.three-info {
+    color: #D0D7DC;
+    font-size: 16px;
+    max-width: 800px;
+    margin-top: 0;
+}
