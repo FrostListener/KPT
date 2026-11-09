@@ -129,3 +129,42 @@ body {
     max-width: 800px;
     margin-top: 0;
 }
+
+.container-four {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: #E9DFC8;
+    align-items: center;
+    min-height: 700px;
+    box-sizing: border-box;
+}
+
+.container-four img {
+    max-width: 300px;
+}
+
+.second-logo {
+    margin-bottom: 70px;
+}
+
+.four-header {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.first-logo,
+.second-logo,
+.third-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.four-info {
+    max-width: 200px;
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 0;
+}
